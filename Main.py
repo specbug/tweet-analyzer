@@ -39,7 +39,7 @@ class TweetPy(App):
 			with open("tweepy.txt", "a", newline='', encoding='utf-8') as tweetScore:
 				tweetWrite = csv.writer(tweetScore)
 				tweetWrite.writerow([tweet.text, analysis.sentiment.polarity, analysis.sentiment.subjectivity])
-				self.lbl.text = tweet.text
+				self.lbl.text += tweet.text
 		tweetScore.close()
 		
 
