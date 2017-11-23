@@ -4,10 +4,10 @@ Android based app to search for live tweets using specific input handle and save
 
 ##Overview
 
-This is the code for the Twitter Sentiment Analyzer challenge for 'Learn Python for Data Science #2' by [llSourcell]          	
-(https://github.com/llSourcell) on YouTube. The code uses the tweepy library to access the Twitter API and the TextBlob library to 	
-perform Sentiment Analysis on each Tweet. We'll be able to see how positive or negative each tweet is about whatever topic we 
-choose.The app is implemented on Kivy platform as it's written in Python.
+This is the code based on challenge for 'Learn Python for Data Science #2' by [llSourcell](https://github.com/llSourcell) on YouTube.
+The code uses the tweepy library to access the Twitter API and the TextBlob library to perform Sentiment Analysis on each Tweet. We'll 
+be able to see how positive or negative each tweet is about whatever topic we choose. The app is implemented on Kivy platform as it's 
+written in Python.
 
 
 
@@ -59,7 +59,8 @@ execute the following:
   
 ##License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/specbug/tweetAnalyzer/blob/master/LICENSE) file 
+for details
 
 
 ##Credits
