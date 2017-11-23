@@ -49,7 +49,7 @@ written in Python.
 
 ##Usage
 
-After you're done with all above steps and the code, make sure you've the buildozer.spe and the tweepy.txt file in same location and 	
+After you're done with all above steps and the code, make sure you've the buildozer.spec and the tweepy.txt file in same location and 	
 execute the following:
 
   ~~~
