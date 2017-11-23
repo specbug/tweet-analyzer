@@ -21,10 +21,10 @@ class TweetPy(App):
 		return layout
 
 	def buttonClicked(self,btn):
-		consumer_key = 'QHpJ8pdlo2qOnYQrbgXaPANbK'
-		consumer_secret = 'mdyQSdwziyWv7GkQfR87IToV3SGq7dIa49KR02KOQ0mfjcqZ5Z'
-		access_token = '2449128006-MPuyn5dOyyO3W44IfZ9QsFLng9fklxNluwxGJJL'
-		access_token_secret = 'sT6F4CnIJOfoSXhlEzHLQDbFZrzv6AHvDw1ZmlHHQG49s'
+		consumer_key = '[consumer_key]'
+		consumer_secret = '[consumer_secret]'
+		access_token = '[access_token]'
+		access_token_secret = '[access_token_secret]'
 
 		auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 		auth.set_access_token(access_token, access_token_secret)
